@@ -34,6 +34,14 @@ foo = Foo.new(bar: "Hello")
 puts foo.bar # => Hello
 ```
 
+# Limitations
+
+* it only works with obbligatory parameters
+
+# Why not Struct?
+
+* It doesn't handle required parameters
+
 # Installation
 
 Add this line to your application's Gemfile:
